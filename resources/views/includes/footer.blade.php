@@ -1,1 +1,0 @@
-<div id="copyright text-right">© 2015</div>
