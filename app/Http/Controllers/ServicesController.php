@@ -3,7 +3,9 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class ServicesController extends Controller {
 
@@ -15,8 +17,6 @@ class ServicesController extends Controller {
 	public function getServices()
 	{
 		return view('service_folder.service');
-	}
-
-	
+	}	
 
 }

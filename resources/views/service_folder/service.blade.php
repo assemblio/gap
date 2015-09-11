@@ -10,11 +10,26 @@
 <link rel="stylesheet" type="text/css" href="{{URL::asset('css/jquery.lightbox.css')}}">
 <script src="{{URL::asset('js/jquery.min.js')}}"></script>
 <script src="{{URL::asset('js/jquery.lightbox.js')}}"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 <script>
-  // Initiate Lightbox
-  $(function() {
-    $('.gallery a').lightbox(); 
+$(document).ready(function () {
+    $(function () {
+      $(".total").on("click", function(e){
+        e.preventDefault();
+        var two   = +$("#2").val(); 
+        var three = +$("#3").val();
+        var four  = +$("#4").val();
+        var five  = +$("#5").val(); 
+        var sum1 =  two + three + four;
+        var tvsh = sum1*five;
+        document.getElementById('6').value = tvsh  
+        var sum =two + three + four + tvsh;
+        document.getElementById('7').value = sum      
+    })
+
   });
+});
 </script>
 </head>
 <body>
@@ -34,6 +49,7 @@
 			<div class="clear"></div>
 		 </ul>
 	</div>
+
 </div>
 	<div class="clear"></div>
 </div>
@@ -42,55 +58,53 @@
 <div class="wrap">
 <div class="wrapper">
 <div class="main">
-	<div class="ser-main">
-		<h2 class="style">Our Services</h2>
-		<div class="ser-para">
-			<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like. </p>
-		</div>
-		<div class="ser-grid-list img_style">
-			<div class="gallery">
-				<a href="images/ser_pic1.jpg"><img src="images/ser_pic1.jpg" title="image-name"></a>
-			</div>
-			<h5>pellentesque at ultrices</h5>
-			<p class="para">Qsi turpis, pellentesque at ultrices in, dapibus in magna. Nunc easi diam risus, placerat ut scelerisque et, placerat ut scelerisque ,Nunc easi diam risus, placerat ut scelerisque et, </p>
-			<div class="button1">
-				<a href="details.html" class="btn btn_s">view More</a>
-			</div>
-		</div>
-		<div class="ser-grid-list img_style">
-			<div class="gallery">
-				<a href="images/ser_pic2.jpg"><img src="images/ser_pic2.jpg" title="image-name"></a>
-			</div>
-			<h5> Nunc easi diam risus</h5>
-			<p class="para">Qsi turpis, pellentesque at ultrices in, dapibus in magna. Nunc easi diam risus, placerat ut scelerisque et,placerat ut scelerisque Nunc easi diam risus, placerat ut scelerisque et, </p>
-			<div class="button1">
-				<a href="details.html" class="btn btn_s">view More</a>
-			</div>
-		</div>
-		<div class="ser-grid-list img_style">
-			<div class="gallery">
-				<a href="images/ser_pic3.jpg"><img src="images/ser_pic3.jpg" title="image-name"></a>
-			</div>
-				<h5>pellentesque at ultrices</h5>
-			<p class="para">Qsi turpis, pellentesque at ultrices in, dapibus in magna. Nunc easi diam risus, placerat ut scelerisque etplacet scelerisque ,Nunc easi diam risus, placerat ut scelerisque et, </p>
-			<div class="button1">
-				<a href="details.html" class="btn btn_s">view More</a>
-			</div>
-		</div>
-		<div class="ser-grid-list img_style">
-			<div class="gallery">
-				<a href="images/ser_pic4.jpg"><img src="images/ser_pic4.jpg" title="image-name"></a>
-			</div>
-			<h5> Nunc easi diam risus</h5>
-			<p class="para">Qsi turpis, pellentesque at ultrices in, dapibus in magna. Nunc easi diam risus, placerat ut scelerisque etplacet scelerisque ,Nunc easi diam risus, placerat ut scelerisque et, </p>
-			<div class="button1">
-				<a href="details.html" class="btn btn_s">view More</a>
-			</div>
-		</div>
-		<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-	</div>
+<div class="container">
+ <form  method="post" class="form-horizontal">
+<div class="form-group ">
+    <label class="control-label col-xs-1"> Kubikazha: </label>
+    <div class="col-xs-3">
+    <input type="number" min="0" step="1" id="1" class="form-control col-xs-3" />
+</div>
+</div>
+<div class="form-group ">
+    <label class="control-label col-xs-1"> Vlera: </label>
+    <div class="col-xs-3">
+    <input type="number" min="0" step="1" id="2" class="form-control col-xs-3" />
+</div>
+</div>
+<div class="form-group ">
+    <label class="control-label col-xs-1"> Akciza: </label>
+    <div class="col-xs-3">
+    <input type="number" min="0" step="1" id="3" class="form-control col-xs-3" />
+</div>
+</div>
+<div class="form-group ">
+    <label class="control-label col-xs-1"> Dogana: </label>
+    <div class="col-xs-3">
+    <input type="number" min="0" step="1" id="4" class="form-control col-xs-3" />
+</div>
+</div>
+<div class="form-group ">
+    <label class="control-label col-xs-1"> TVSH: </label>
+    <div class="col-xs-3">
+    <input type="number" min="0" step="1" id="6" disabled="true" class="form-control col-xs-3" />
+    <input type="hidden" name="value_of_tvsh" value="0.18" id="5"/>
+</div>
+</div>
+<div class="form-group ">
+<button class="btn btn-primary total" > Llogarit totalin</button>
+</div>
+<br />
+<div class="form-group ">
+    <label class="control-label col-xs-1"> Totali: </label>
+    <div class="col-xs-3">
+    <input type="number" id="7" disabled="true" class="form-control col-xs-3" />
+</div>
+</div>
+ </form>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -114,5 +128,8 @@
 </div>
 <div class="clear"></div>
 </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 </body>
 </html>
