@@ -19,8 +19,8 @@
 		  	<li><a class="active" href="{{URL::route('index_page')}}"><span>Ballina</span></a></li>
 			<li ><a href="{{URL::route('about_page')}}"><span>Per ne</span></a></li>
 			<li><a href="{{URL::route('visualization_page')}}"><span>Vizualizimet</span></a></li>
-			<li class="has-sub"><a href="{{URL::route('services_page')}}"><span>Sherbimet</span></a></li>
-			<li ><a href="{{URL::route('services_page')}}"><span>Kontakti</span></a></li>
+			<li class="has-sub"><a href="{{URL::route('calculator_page')}}"><span>Kalkulatori</span></a></li>
+			<li ><a href="{{URL::route('contact_page')}}"><span>Kontakti</span></a></li>
 			<div class="clear"></div>
 		 </ul>
 	</div>

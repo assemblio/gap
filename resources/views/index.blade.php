@@ -31,17 +31,17 @@
 <body>
 <div class="fluid_container">
    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-          <div data-src="images/slider1.jpg"> </div>
-            <div data-src="images/slider2.jpg"> </div>
-            <div  data-src="images/slider3.jpg"> </div>
+        <div data-src="images/slider1.jpg"> </div>
+        <div data-src="images/slider1.jpg"> </div>
+        <div data-src="images/slider1.jpg"> </div>
   </div>
 </div>
 <div class="clear"></div>
 <div class="wrap">
 <div class="wrapper">
 <div class="main_text">
-		<h2>A place of light, of liberty, and learning</h2>
-		<h3>we provide leading intensive courses</h3>
+		<h2>GAP</h2>
+		<h3>Instituti për Studime të Avancuara</h3>
 	</div>	
 	<div class="grids_1_of_4">
 				<div class="grid_1_of_4 images_1_of_4 bg1">
