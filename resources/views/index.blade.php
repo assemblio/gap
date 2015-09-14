@@ -1,9 +1,8 @@
-
+@extends('default')
+@section('content')
 <!DOCTYPE HTML>
 <html>
 <head>
-<title> GAP Website </title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="{{URL::asset('http://fonts.googleapis.com/css?family=Cagliostro')}}" rel='stylesheet' type='text/css'>
 <link href="{{URL::asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
@@ -30,26 +29,6 @@
 	</script>
 </head>
 <body>
-<div class="wrap">
-<div class="wrapper">
-<div class="logo">
-	<a href="{{URL::route('index_page')}}"><h1> GAP </h1></a>
-</div>
-<div class="header_right">
-	<div class="cssmenu">
-		<ul>
-		  	<li><a class="active" href="{{URL::route('index_page')}}"><span>Ballina</span></a></li>
-			<li ><a href="{{URL::route('about_page')}}"><span>Per ne</span></a></li>
-			<li><a href="{{URL::route('visualization_page')}}"><span>Vizualizimet</span></a></li>
-			<li class="has-sub"><a href="{{URL::route('services_page')}}"><span>Sherbimet</span></a></li>
-			<li ><a href="{{URL::route('services_page')}}"><span>Kontakti</span></a></li>
-			<div class="clear"></div>
-		 </ul>
-	</div>
-</div>
-	<div class="clear"></div>
-</div>
-</div>
 <div class="fluid_container">
    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
           <div data-src="images/slider1.jpg"> </div>
@@ -57,7 +36,7 @@
             <div  data-src="images/slider3.jpg"> </div>
   </div>
 </div>
-	<div class="clear"></div>
+<div class="clear"></div>
 <div class="wrap">
 <div class="wrapper">
 <div class="main_text">
@@ -147,10 +126,10 @@
 <div class="wrapper">
 	<div class="main">
 			<div class="grid_1_of_2 images_1_of_2">
-				<h4>Lorem Ipsum is simply <span>dummy text of the</span> ornare vulputate printing and typesetting There are many variations of passages of.</h4>
+				<h4> GAP <span>dummy text of the</span> ornare vulputate printing and typesetting There are many variations of passages of.</h4>
 				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. </p>
 				<div class="button1">
-					<a href="details.html" class="btn btn_s">view More</a>
+					<a href="details.html" class="btn btn_s">shiko me shume</a>
 				</div>
 			</div>
 			<div class="grid_1_of_2 images_1_of_2 img_style">
@@ -161,25 +140,6 @@
 </div>
 </div>
 </div>
-<div class="wrap">
-<div class="wrapper">
-	<div class="footer">
-		<div class="social-icons">
-	   		  	<ul>
-			      <li class="icon_1"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_2"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_3"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_4"><a href="#" target="_blank"> </a></li>
-			      <div class="clear"></div>
-		     </ul>
-	   	 </div>
-		<a href="{{URL::route('index_page')}}"><h2>GAP</h2></a>
-		<div class="copy">
-			<p class="w3-link">© <script>document.write(new Date().getFullYear())</script> </p>
-		</div>
-	</div>
-</div>
-<div class="clear"></div>
-</div>
 </body>
 </html>
+@stop
