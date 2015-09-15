@@ -55,11 +55,11 @@
 				    </div>
 					<div class="dc-head-info">
 						<h2 class="style">Chart III</h2>
-						<span>.</span>
+						<span>test</span>
 					</div>
 					<div class="clear"> </div>
 					<div class="dc-profile">
-						<p class="para">...</p>
+						<p class="para">  Regjistrimi i veturave ne baze te vendit te origjines.</p>
 						<div class="button1">
 							<a href="{{URL::route('visualization_chart_3_page')}}" class="btn btn_s">Shiko me shume</a>
 						</div>
@@ -71,11 +71,11 @@
 				    </div>
 					<div class="dc-head-info">
 						<h2 class="style"> Chart IV</h2>
-						<span>  ....</span>
+						<span>  test</span>
 					</div>
 					<div class="clear"> </div>
 					<div class="dc-profile">
-						<p class="para">..... </p>
+						<p class="para"> Regjistrimi i veturave ne baze te firmes. </p>
 						<div class="button1">
 							<a href="{{URL::route('visualization_chart_4_page')}}" class="btn btn_s">Shiko me shume</a>
 						</div>
@@ -90,12 +90,12 @@
 					 <img src="images/icon4.png">
 				    </div>
 					<div class="dc-head-info">
-						<h2 class="style">Chart III</h2>
-						<span>.</span>
+						<h2 class="style">Chart V</h2>
+						<span>test</span>
 					</div>
 					<div class="clear"> </div>
 					<div class="dc-profile">
-						<p class="para">...</p>
+						<p class="para"> Regjistrimi i veturave ne baze te vendit dhe llojit te motorit.</p>
 						<div class="button1">
 							<a href="{{URL::route('visualization_chart_5_page')}}" class="btn btn_s">Shiko me shume</a>
 						</div>
@@ -106,12 +106,12 @@
 					 <img src="images/icon4.png">
 				    </div>
 					<div class="dc-head-info">
-						<h2 class="style"> Chart IV</h2>
-						<span>  ....</span>
+						<h2 class="style"> Chart VI</h2>
+						<span> test</span>
 					</div>
 					<div class="clear"> </div>
 					<div class="dc-profile">
-						<p class="para">..... </p>
+						<p class="para"> Dogana e veturave te reja ne baze te vendit te origjines. </p>
 						<div class="button1">
 							<a href="{{URL::route('visualization_chart_6_page')}}" class="btn btn_s">Shiko me shume</a>
 						</div>
