@@ -43,22 +43,7 @@
 		<h2>GAP</h2>
 		<h3>Instituti për Studime të Avancuara</h3>
 	</div>	
-	<div class="grids_1_of_4">
-				<div class="grid_1_of_4 images_1_of_4 bg1">
-					 <img src="images/icon1.png">
-				</div>
-				<div class="grid_1_of_4 images_1_of_4 bg2">
-					 <img src="images/icon2.png">
-				</div>
-				<div class="grid_1_of_4 images_1_of_4 bg3 hide">
-					 <img src="images/icon3.png">
-				</div>
-				<div class="grid_1_of_4 images_1_of_4 bg4 hide">
-					 <img src="images/icon4.png">
-				</div>
-			<div class="clear"></div>
-			</div>
-			
+	<div class="clear"></div>
 	</div>
 	</div>
 
