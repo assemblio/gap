@@ -9,7 +9,7 @@
 		<div class="det-para">
 			<h4 class="top para"> Regjistrimi i veturave ne baze te komunes. </h4>
 		<div class="det-para">
-		<iframe class="highcharts-iframe" src="//cloud.highcharts.com/embed/esidyg" style="border: 0; width: 100%; height: 500px"></iframe>	
+		<iframe class="highcharts-iframe" src="//cloud.highcharts.com/embed/efylyk" style="border: 0; width: 100%; height: 500px"></iframe>
 		</div>
 		</div>
 		<div class="clear"></div>

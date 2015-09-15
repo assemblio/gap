@@ -9,8 +9,7 @@
 		<div class="det-para">
 			<h4 class="top para"> Regjistrimi i veturave ne baze te vitit te prodhimit. </h4>
 		<div class="det-para">
-			<iframe class="highcharts-iframe" src="//cloud.highcharts.com/embed/ivymul" style="border: 0; width: 100%; height: 500px"></iframe>
-		</div>
+			<iframe class="highcharts-iframe" src="//cloud.highcharts.com/embed/eqejez" style="border: 0; width: 100%; height: 500px"></iframe></div>
 		</div>
 		<div class="clear"></div>
 	</div>
