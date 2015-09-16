@@ -25,33 +25,7 @@
 				   		<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
 				   </div>
 				   <div class="clear"></div>
-				</div>				
-				<div class="col span_2_of_4">
-				  <div class="contact-form">
-				  	<h2 class="style">Contact Us</h2>
-					       <form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>NAME</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>MOBILE</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>SUBJECT</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<a href="" class="btn btn_s">send me</a>
-						  </div>
-					    </form>
-				    </div>
-  				</div>		
+				</div>						
   			<div class="clear"></div>
 		  </div>
 	</div>

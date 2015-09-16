@@ -1,5 +1,6 @@
 @extends('default')
-@section('content')<!DOCTYPE HTML>
+@section('content')
+<!DOCTYPE HTML>
 <html>
 <body>
 <div class="main_bg">
