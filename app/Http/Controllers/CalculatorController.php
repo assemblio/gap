@@ -16,7 +16,7 @@ class CalculatorController extends Controller {
 	 */
 	public function getServices()
 	{
-		return view('calculator_folder.service');
+		return view('calculator_folder.calculator');
 	}	
 
 }
