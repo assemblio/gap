@@ -27,7 +27,6 @@ $(document).ready(function () {
         var date1 = $('#today_date').val();
         var date2 = $('#choosen_date').val();
         var year = date1.getYear() - date2.getYear();
-        console.log ( 'Hi');
         $('#difference_year').val(year);  
         var month = date1.getMonth() - date2.getMonth();
         $('#difference_month').val(month);      
@@ -89,7 +88,7 @@ $(document).ready(function () {
 </div>
 
 <br/> <br/>
-<div class="form-group ">
+<!-- <div class="form-group ">
     <label class="control-label col-xs-1"> Data sot : </label>
     <div class="col-xs-3">
     <input type="date" id="today_date" class="form-control col-xs-3" />
@@ -112,7 +111,7 @@ $(document).ready(function () {
     <div class="col-xs-3">
     <input type="text" id="difference_month" disabled="true" class="form-control col-xs-3" />
 </div>
-</div>
+</div> -->
 </form>
 </div>
 </div>
